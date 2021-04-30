@@ -46,6 +46,19 @@ Half wave rectifier with 4n35 IC is used for zero-cross detection.  ZCD is used 
 <img src="Images/image-7.png" width="700" height="400">
 
 ### Software/Coding
+To generate the gate driving pulse, Arduino uno board is used. The following pin's are used:
 
+    1. INPUT: Digital pin-7
+    2. OUTPUT: Digital pin-3, 2 (where 3 for T1 and 2 for T1 switch according to the designed circuit.)
+Here, total three arduino files are uploaded for up-converter, down-converter and ac voltage regulator apllications. Just download the code and upload to your arduino uno board.
 
+### Output Graph
+The following figures show the output voltage of the single-phase to single-phase AC/AC Power Converter taking from a two channel digital oscilloscope.
 
+<img src="Images/image-8.bmp" width="700" height="400">
+<img src="Images/image-9.bmp" width="700" height="400">
+
+The following figures show the gate driving pulses of the four switches of the single-phase to single-phase AC/AC Power Converter, taking from a two channel digital oscilloscope.
+
+<img src="Images/image-10.bmp" width="700" height="400">
+<img src="Images/image-11.bmp" width="700" height="400">
