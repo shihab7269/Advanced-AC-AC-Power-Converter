@@ -13,9 +13,11 @@ The major contributions of this article are:
 The following figure shows the single-phase to single-phase AC/AC Power Converter circuit topology. It uses a multi-winding center tapped transformer, pre-rectified diodes and silicon controlled rectifiers (SCRs). The multi-winding transformer is used here to create different voltage level according to the desired frequency conversion with lower THD.
 
 
-<img src="Images/image-1.png" width="500" height="300">
+<img src="Images/image-1.png" width="600" height="500">
 
+## Operating Principle
+The operating principle of the AC/AC power converter topology is described here with the help of 3:1 (m=3) and 4:1 (m=4) frequency conversion. By connecting the multi-winding center tapped transformer with the AC voltage source, the input AC voltage is divided into small AC voltage levels in a different section of winding. Power diodes are used as a pre-rectifier, which rectifies both the positive cycle and the negative cycle for each section of winding. Hence, only one unidirectional switch is required for each winding to pass the corresponding positive cycle and the negative cycle. The odd numbering switches work as the positive converter, and the even numbering switches work as the negative converter. There are eight operating modes as shown in the following Figure, to describe the working principle of the 3:1 (m=3) and 4:1 (m=4) frequency conversion. The explanation of the eight operating modes helps to understand other frequency conversions also. 
 
-
+<img src="Images/image-2.png">
 
 
