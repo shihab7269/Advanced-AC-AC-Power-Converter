@@ -55,10 +55,10 @@ Here, total three arduino files are uploaded for up-converter, down-converter an
 ### Output Graph
 The following figures show the output voltage of the single-phase to single-phase AC/AC Power Converter taking from a two channel digital oscilloscope.
 
-<img src="Images/image-8.bmp" width="700" height="400">
-<img src="Images/image-9.bmp" width="700" height="400">
+<img src="Images/image-8.BMP">
+<img src="Images/image-9.BMP">
 
 The following figures show the gate driving pulses of the four switches of the single-phase to single-phase AC/AC Power Converter, taking from a two channel digital oscilloscope.
 
-<img src="Images/image-10.bmp" width="700" height="400">
-<img src="Images/image-11.bmp" width="700" height="400">
+<img src="Images/image-10.BMP">
+<img src="Images/image-11.BMP">
