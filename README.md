@@ -18,6 +18,20 @@ The following figure shows the single-phase to single-phase AC/AC Power Converte
 ## Operating Principle
 The operating principle of the AC/AC power converter topology is described here with the help of 3:1 (m=3) and 4:1 (m=4) frequency conversion. By connecting the multi-winding center tapped transformer with the AC voltage source, the input AC voltage is divided into small AC voltage levels in a different section of winding. Power diodes are used as a pre-rectifier, which rectifies both the positive cycle and the negative cycle for each section of winding. Hence, only one unidirectional switch is required for each winding to pass the corresponding positive cycle and the negative cycle. The odd numbering switches work as the positive converter, and the even numbering switches work as the negative converter. There are eight operating modes as shown in the following Figure, to describe the working principle of the 3:1 (m=3) and 4:1 (m=4) frequency conversion. The explanation of the eight operating modes helps to understand other frequency conversions also. 
 
-<img src="Images/image-2.png">
+<img src="Images/image-2.png" width="700" height="1000">
+
+## Switching states 
+The following Table shows the switching states with corresponding frequency conversion. Table-1 shows the summarization of the individual output voltage level with the corresponding switching state. Table 1 clearly shows the entire operation of 3:1 (m=3) and 4:1 (m=4) frequency conversion of the AC/AC power converter.
+
+
+
+
+
+
+
+
+
+
+
 
 
