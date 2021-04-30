@@ -23,12 +23,25 @@ The operating principle of the AC/AC power converter topology is described here 
 ## Switching states 
 The following Table shows the switching states with corresponding frequency conversion. Table-1 shows the summarization of the individual output voltage level with the corresponding switching state. Table 1 clearly shows the entire operation of 3:1 (m=3) and 4:1 (m=4) frequency conversion of the AC/AC power converter.
 
+<img src="Images/image-3.png" width="700" height="500">
+
+The following figure shows the output voltage conversion with corresponding switching states.
+
+<img src="Images/image-4.png" width="700" height="300">
+
+## Conversion Process
+The value of the AC voltage source is considered as 220 V, 50 Hz and a 1:4 multi-winding center tapped transformer is used. Figure (a) shows the secondary four winding transformer voltage waveforms. Connecting the full-wave pre-rectified diode, the ac voltage is rectified in each winding before the SCRs switches where the rectified voltage is shown in Figure (b). The switching pulses of the 3:1 (m=3) frequency conversion are shown in Figure (c). The converted output voltage of the proposed 3:1 (m=3) is presented in Figure (d).
 
 
+<img src="Images/image-5.png" width="700" height="400">
 
+Similarly, for 4:1 (m=4) frequency conversion of the proposed topology, the winding voltage and the rectified voltage is unchanged shown in Figure (a) and (b), respectively.
+Here, the gate drive pulses are different, which is shown in Figure (c). The converted output voltage of the 4:1 frequency conversion is shown in Figure (d).
 
+<img src="Images/image-6.png" width="700" height="400">
 
-
+### Hardware Implementation
+Half wave rectifier with 4n35 IC is used for zero-cross detection.  ZCD is used to synchronize the firing of SCRs with the input supply. Arduino Uno (ATmega328) processor board is used to generate the gate drive pulses, and MOC3021 opto-coupler IC is used to isolate the DC signal from the AC supply. TYN612 SCRs are used to control the phase of the sinusoid. 1N4007 diode is connected in series with the SCR. The following figure shows the PCB design of the AC/AC power converter.
 
 
 
