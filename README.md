@@ -55,10 +55,10 @@ Here, total two arduino files are uploaded for 17 hz and 12.5 hz frequency conve
 ### Output Graph
 The following figures show the output voltage of the single-phase to single-phase AC/AC Power Converter taking from a two channel digital oscilloscope.
 
-<img src="Images/image-8.BMP" width="500" height="400">
-<img src="Images/image-9.BMP" width="500" height="400">
+<img src="Images/image-8.BMP" width="500" height="300">
+<img src="Images/image-9.BMP" width="500" height="300">
 
 The following figures show the gate driving pulses of the four switches of the single-phase to single-phase AC/AC Power Converter, taking from a two channel digital oscilloscope.
 
-<img src="Images/image-10.BMP" width="500" height="400">
-<img src="Images/image-11.BMP" width="500" height="400">
+<img src="Images/image-10.BMP" width="500" height="300">
+<img src="Images/image-11.BMP" width="500" height="300">
