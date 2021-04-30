@@ -43,8 +43,9 @@ Here, the gate drive pulses are different, which is shown in Figure (c). The con
 ### Hardware Implementation
 Half wave rectifier with 4n35 IC is used for zero-cross detection.  ZCD is used to synchronize the firing of SCRs with the input supply. Arduino Uno (ATmega328) processor board is used to generate the gate drive pulses, and MOC3021 opto-coupler IC is used to isolate the DC signal from the AC supply. TYN612 SCRs are used to control the phase of the sinusoid. 1N4007 diode is connected in series with the SCR. The following figure shows the PCB design of the AC/AC power converter.
 
+<img src="Images/image-7.png" width="700" height="400">
 
-
+### Software/Coding
 
 
 
